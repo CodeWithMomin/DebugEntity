@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: content-box;
+        }
+        body{
+            font-family:PT Sans;
+            font-size: 14px;
+         
+      
+        }
+        .container{
+            display: flex;
+            justify-content:center;
+            
+        }
+       .topdiv{
+        background-color: forestgreen;
+        width: 650px;
+        height: 60px;
+        padding: 15px;
+        padding-top: 5PX;
+        padding-left: 20PX;
+        border-radius: 2px;
+        
+       }
+       .bottomDiv{
+            
+        border-radius:2px;
+       
+       }
+       #main{
+        padding: 10px;
+        border-radius: 11px;
+        background-color: rgb(238, 238, 248);
+       }
+       input[type="text"],
+       input[type="email"],
+       input[type="text"],
+       textarea{
+        width: 96%;
+        padding: 10px;
+        text-align: left;
+        background-color: honeydew;
+        border:1px solid black;
+        border-radius: 5px;
+        margin: 5px;
+        font-weight: 60;
+       }
+       p{
+        font-weight: 300;
+       }
+       input[type="submit"]{
+        width: 91%;
+        height:30px;
+        margin-left: 23px;
+        border: 1px solid white;
+        background-color: greenyellow;
+        border-radius: 10px;
+        font-weight: 400;
+        cursor: pointer;
+       }
+       input[type="submit"]:hover{
+        background-color: rgba(172, 255, 47, 0.836);
+       }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container">
+       
+     
+      <div id="main">
+        <div class="bottomDiv">
+            <div class="topdiv">
+                <h2>Drop Your Queries</h2>
+            </div>
+            <form action="">
+                <p>Your Name:  <br>
+                <input type="text" id="name" required 
+                placeholder="Enter Your Name"></p>
+                <p>Email Address: <br>
+                <input type="email" id="email" required  
+                placeholder="Enter Your Email Address "></p>
+                <p> Contact No: <br>
+                <input type="text" id="phno" required
+                placeholder="Contact Number">
+                </p>
+                <p>Query: <br>
+                <textarea name="textarea" id="txtarea" cols="30" rows="10" required>
+
+                </textarea>
+                </p>
+
+                <input type="submit" id="submit">
+
+
+            </form>
+        </div></div>
+    </div>
+      
+</body>
+</html>
