@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DebugEntity</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgba(0, 0, 0, 0.699);
+        }
+        .container{
+            display: flex;
+            width: 100%;
+           
+           
+            border: 1px solid gray;
+            
+        }
+        .nav-wala-div{
+            width: 500px;
+            height:1200px;
+            
+            background-color:chocolate;
+        }
+        .haf-wala-div{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        header{
+            width:100%;
+            height: 200px;
+            background:url(b.jpg);
+        }
+        article{
+            width:100%;
+            height: 500px;
+            background-color:rgb(155, 155, 154);
+        }
+        footer{
+          
+            width:100%;
+            height: 500px;
+           background: url(b.jpg);
+        }
+        header>h3{
+            
+            text-align: center;
+            font-size: 80px;
+            background: linear-gradient(to Right,
+            #fe015a 35%,rgb(49, 3, 255));
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            color:transparent;
+            animation: gradient 3s linear infinite;
+        }
+        @keyframes gradient {
+
+            0%{
+                background-position: 0% 75%;
+            }
+            50%{
+                background-position: 100% 30%;
+            }
+            100%{
+                background-position: 0% 70%;
+            }
+        }
+        nav{
+            width: 100%;
+            height: 70px;
+            padding: 10px;
+            background:rgba(0, 0, 0, 0.877);
+            position: sticky;
+            top: 0;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            margin: 40px;
+            font-size: 30px;
+            text-align: center;
+        }
+        p{
+            color: azure;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wala-div">
+            <img src="MOMIN ZAHOOR.png" alt="" width="100%"
+            height="100%">
+        </div>
+        <div class="haf-wala-div">
+            <header>
+                <h3 style="font-size: 50px; text-align: center;">Debug Entity</h3>
+            </header>
+            <article>
+                <nav>
+                    <a id="#getstarted" href="index/index.html" target="_blank">GetStarted</a>
+                    <a id="Aboutus" href="#">About Us</a>
+                    <a href="main.html" target="_blank">Contact Us</a>
+                    <a href="#">Products</a>
+                    <a href="#">Blogs</a>
+                    <a href="day6Pratice/index.html" target="_blank">Pay</a>
+                </nav>
+                <p style="font-size: 50px; padding: 10px;">
+                    Welcome to the Debug Entity Experience! Momin Zahoor's website, debugentity.com, offers a clean and modern design showcasing his expertise in front-end development, graphic design, and print design. With an informative blog, comprehensive services, and a high-quality portfolio, debugentity.com is an outstanding showcase of Momin's talents. Explore the website to discover more about this exceptional developer and designer.
+                </p>
+            </article>
+            <footer class="site-footer">
+                <div class="footer-top">
+                  <div class="footer-info">
+                    <h3 style="font-size: 25px; color: white;">Debug Entity</h3>
+                    <p style="color: beige; font-size: 20px; ">A brief description of your company. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+                  <div class="footer-links">
+                    <h3 style=" color: beige; font-size: 20px;">Quick Links</h3>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#Aboutus">About Us</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer-contact">
+                    <h3 style="color: white;">Contact Us</h3>
+                    <p>Email: debugenitiy@gmail.com</p>
+                    <p>Phone: 123-456-7890</p>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  <p>&copy; 2024 Company Name. All Rights Reserved.</p>
+                </div>
+              </footer>
+              
+            
+        </div>
+    </div>
+</body>
+</html>
